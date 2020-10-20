@@ -1,0 +1,54 @@
+/* WHOLE */
+.status-bar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/* 1st Column */
+.status-bar_service {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* 2nd Column */
+.status-bar_time {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+/* 3rd Column */
+.status-bar_battery {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* IMAGES AND ICONS */
+.icon_5g {
+  height: 15px;
+  margin-left: 3px;
+}
+.icon_rotation {
+  height: 15px;
+  margin-right: 3px;
+}
+.icon_battery {
+  height: 30px;
+  margin-left: 3px;
+}
+.icon_flash {
+  height: 14px;
+}

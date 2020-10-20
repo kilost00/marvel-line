@@ -1,0 +1,19 @@
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.index-header {
+  animation: appear 5.5s ease-in-out forwards;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 60px 20px;
+}
+
+.index-header_wel;
