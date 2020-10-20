@@ -54,6 +54,7 @@
   align-items: flex-start;
   height: 100vh;
 }
+
 .bg-third {
   position: absolute;
   background-color: var(--m-red);
