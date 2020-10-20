@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
 @import "reset.css";
 @import "valuable.css";
+
+/* COMPONENTS */
 @import "components/status-bar.css";
+
+/* INDEX */
 @import "screens/index-bg.css";
 @import "screens/index-header.css";
+@import "screens/index-login.css";
 
 body {
   height: 100vh;

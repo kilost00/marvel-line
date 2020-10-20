@@ -14,7 +14,7 @@
   0% {
     opacity: 1;
   }
-  80% {
+  90% {
     opacity: 1;
   }
   100% {
@@ -87,28 +87,31 @@
 }
 .dot-st {
   animation: appear 8.5s ease-in-out forwards;
+  margin: 0px 2px;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
 }
 .dot-nd {
   animation: appear 9s ease-in-out forwards;
+  margin: 0px 2px;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
 }
 .dot-rd {
   animation: appear 9.5s ease-in-out forwards;
+  margin: 0px 2px;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
 }
 /* MARVEL-LINE */
 .index-title {
-  animation: appear 10.8s ease-in-out forwards;
+  animation: appear 15s ease-in-out forwards;
   display: flex;
   padding: 30px 20px;
 }
 .index-header_marvel {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 700;
   padding: 0px 2px;
   color: var(--m-red);
   background-color: white;
@@ -127,7 +130,6 @@
   position: absolute;
   top: 90px;
   left: 20px;
-  z-index: 3;
 }
 
 #ab {
