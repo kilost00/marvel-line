@@ -58,6 +58,6 @@
 .bg-third {
   position: absolute;
   background-color: var(--m-red);
-  animation: get-bigger 4s linear forwards;
+  animation: get-bigger 4.2s linear forwards;
   will-change: auto;
 }

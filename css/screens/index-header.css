@@ -10,10 +10,127 @@
   }
 }
 
-.index-header {
-  animation: appear 5.5s ease-in-out forwards;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 60px 20px;
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-.index-header_wel;
+.index-header {
+  padding: 90px 20px 0px;
+  display: flex;
+  animation: disappear 10.5s ease-in-out forwards;
+}
+
+/* ACCESSING TO... */
+#a {
+  animation: appear 6s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#b {
+  animation: appear 6.2s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#c {
+  animation: appear 6.4s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#d {
+  animation: appear 6.6s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#e {
+  animation: appear 6.8s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#f {
+  animation: appear 7s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#g {
+  animation: appear 7.2s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#h {
+  animation: appear 7.4s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#i {
+  animation: appear 7.6s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+#j {
+  animation: appear 8s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  margin-left: 10px;
+}
+#k {
+  animation: appear 8.2s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+.dot-st {
+  animation: appear 8.5s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+.dot-nd {
+  animation: appear 9s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+.dot-rd {
+  animation: appear 9.5s ease-in-out forwards;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+/* MARVEL-LINE */
+.index-title {
+  animation: appear 10.8s ease-in-out forwards;
+  display: flex;
+  padding: 30px 20px;
+}
+.index-header_marvel {
+  font-size: 45px;
+  font-weight: 600;
+  padding: 0px 2px;
+  color: var(--m-red);
+  background-color: white;
+}
+.index-header_line {
+  font-size: 45px;
+  font-weight: 600;
+  margin-left: 8px;
+  color: white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+#aa {
+  animation: appear 13s ease-in-out forwards;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  z-index: 3;
+}
+
+#ab {
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
