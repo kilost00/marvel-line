@@ -1,0 +1,109 @@
+/* STATUS BAR */
+/* WHOLE */
+.status-bar-c {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: black;
+}
+/* 1st Column */
+.status-bar_service {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.8;
+}
+
+/* 2nd Column */
+.status-bar_time {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* 3rd Column */
+.status-bar_battery {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0.8;
+}
+
+/* IMAGES AND ICONS */
+.icon_5g {
+  height: 15px;
+  margin-left: 3px;
+  opacity: 0.8;
+}
+.icon_rotation {
+  height: 15px;
+  margin-right: 3px;
+  opacity: 0.8;
+}
+.icon_battery {
+  height: 30px;
+  margin-left: 3px;
+  opacity: 0.8;
+}
+.icon_flash {
+  height: 14px;
+  opacity: 0.8;
+}
+
+.header-b {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px 20px;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  box-sizing: border-box;
+}
+
+.set-box {
+  border: 2px solid var(--m-red);
+  border-radius: 10px;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.set-row {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.set-row:not(.last-row) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.set-row-icon {
+  width: 10%;
+}
+.set-row-text {
+  width: 50%;
+  font-size: 21px;
+}
+.set-row-noti {
+  width: 40%;
+  opacity: 0.7;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.set-icon {
+  height: 23px;
+}

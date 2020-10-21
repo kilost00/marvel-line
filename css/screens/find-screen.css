@@ -1,0 +1,137 @@
+.find-screen {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.find-screen > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#find-span {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.find-screen img {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.chev-right_f {
+  height: 12px;
+  position: relative;
+  top: 1px;
+  margin-left: 1px;
+}
+
+.find-screen-nd {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.find-screen-nd > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile_pic_f {
+  height: 56px;
+  width: 56px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* OPEN CHAT */
+.open-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-column {
+  display: flex;
+  flex-direction: column;
+}
+.open-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.open-hash,
+.open-members {
+  color: rgba(0, 0, 0, 0.55);
+}
+.open-hash {
+  margin: 8px 0px;
+}
+.open-info {
+  display: flex;
+  align-items: center;
+}
+.open-members {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.open-active {
+  color: rgb(255, 81, 255);
+  font-weight: 600;
+}
+.open-col-pic {
+  height: 90px;
+  border-radius: 10px;
+}
+
+.open-col-pic-sm {
+  height: 18px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.open-column-nd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heart {
+  background-color: rgba(255, 255, 255, 0.712);
+  border-radius: 20px;
+  padding: 3px 6px 3px 24px;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.heart-b {
+  position: absolute;
+  right: 35px;
+  top: 3px;
+  transition: color 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+@keyframes heart {
+  from {
+    font-size: 15px;
+  }
+  80% {
+    font-size: 20px;
+  }
+  to {
+    font-size: 15px;
+  }
+}
+.heart-b:hover {
+  color: var(--m-red);
+  animation: heart 0.8s linear infinite;
+}

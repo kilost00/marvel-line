@@ -16,8 +16,13 @@
 @import "screens/friends-screen.css";
 /* CHATS */
 @import "screens/chats-screen.css";
+@import "screens/chat.css";
+/* FIND */
+@import "screens/find-screen.css";
 /* SETTINGS */
 @import "screens/settings-screen.css";
+/* SET */
+@import "screens/set-screen.css";
 
 body {
   height: 100vh;

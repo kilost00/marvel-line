@@ -8,7 +8,7 @@
   font-weight: 600;
 }
 
-.h-line_text {
+.h-line_text_chats {
   position: absolute;
   display: flex;
   width: 100%;
@@ -20,4 +20,34 @@
 
 .fa-thumbtack {
   margin-right: 2px;
+}
+
+@keyframes noti-a {
+  from {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-10px) rotateY(360deg);
+  }
+  to {
+    transform: none;
+  }
+}
+
+#chat-noti {
+  z-index: 3;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 55px;
+  right: 275px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  animation: noti-a 1.5s ease-in-out infinite;
 }

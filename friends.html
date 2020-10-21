@@ -30,7 +30,9 @@
             <div>
                 <img class="icon_search" src="img/search2.png" />
                 <img class="icon_music" src="img/music.png" />
-                <img class="icon_cog" src="img/cog.png" />
+                <a href="set.html">
+                    <img class="icon_cog" src="img/cog.png" />
+                </a>
             </div>
         </header>
         <div class="friends-screen">
@@ -52,7 +54,7 @@
             </div>
             <div class="h-line_f">
                 <div class="h-line_text">
-                    Hero
+                    MARVEL guys
                 </div>
                 <div class="h-line_icon">
                     <img class="chev-up_f" src="img/chev-up.PNG" />
@@ -160,28 +162,38 @@
         </div>
     </div>
     <!-- NAVIGATION -->
-    <div class="nav">
+    <nav class="nav">
         <div class="nav-bg">
             <div class="nav-icon">
-                <div class="nav-icon_b">
-                    <a href="friends.html" class="nav-friends">
-                        <i class="fas fa-user fa-2x"></i>
-                        <!-- <i class="far fa-user"></i> -->
-                    </a>
-                    <a href="chats.html" class="nav-chats">
-                        <i class="far fa-comment fa-2x"></i>
-                        <!-- <i class="fas fa-comment"></i> -->
-                    </a>
-                    <a href="find.html" class="nav-find">
-                        <img class="nav-icon-find" src="img/search2.png" />
-                    </a>
-                    <a href="settings.html" class="nav-settings">
-                        <img class="nav-icon-more" src="img/ellipsis2.png" />
-                    </a>
-                </div>
+                <ul class="nav-icon_b">
+                    <li>
+                        <a href="friends.html" class="nav-friends">
+                            <i class="fas fa-user fa-2x"></i>
+                            <!-- <i class="far fa-user fa-2x"></i> -->
+                        </a>
+                    </li>
+                    <li>
+                        <span id="chat-noti">5</span>
+                        <a href="chats.html" class="nav-chats">
+                            <i class="far fa-comment fa-2x"></i>
+                            <!-- <i class="fas fa-comment"></i> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="find.html" class="nav-find">
+                            <img class="nav-icon-find" src="img/search2.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <span id="more-noti"></span>
+                        <a href="settings.html" class="nav-settings">
+                            <img class="nav-icon-more" src="img/ellipsis2.png" />
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
     <script src="https://kit.fontawesome.com/62b50a0b9a.js" crossorigin="anonymous"></script>
 </body>
 </html>
