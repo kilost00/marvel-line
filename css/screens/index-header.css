@@ -27,6 +27,11 @@
   display: flex;
   animation: disappear 10.5s ease-in-out forwards;
 }
+.index-header_b {
+  padding: 4px 20px 0px;
+  display: flex;
+  animation: disappear 10.5s ease-in-out forwards;
+}
 
 /* ACCESSING TO... */
 #a {
@@ -74,7 +79,6 @@
   animation: appear 7.7s ease-in-out forwards;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
-  margin-left: 10px;
 }
 #j {
   animation: appear 7.9s ease-in-out forwards;
@@ -108,7 +112,7 @@
 .index-title {
   animation: appear 15s ease-in-out forwards;
   display: flex;
-  padding: 30px 20px;
+  padding: 0px 20px;
 }
 .index-header_marvel {
   font-size: 45px;
