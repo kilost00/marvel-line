@@ -65,20 +65,21 @@
   font-family: "Orbitron", sans-serif;
 }
 #h {
-  animation: appear 7.05s ease-in-out forwards;
+  animation: appear 7.5s ease-in-out forwards;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
+  margin-left: 10px;
 }
 #i {
-  animation: appear 7.2s ease-in-out forwards;
+  animation: appear 7.7s ease-in-out forwards;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
+  margin-left: 10px;
 }
 #j {
   animation: appear 7.9s ease-in-out forwards;
   font-size: 30px;
   font-family: "Orbitron", sans-serif;
-  margin-left: 10px;
 }
 #k {
   animation: appear 8.1s ease-in-out forwards;
