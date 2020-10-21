@@ -1,0 +1,23 @@
+.name_chats {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.text_chats {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.h-line_text {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  right: 40px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.fa-thumbtack {
+  margin-right: 2px;
+}

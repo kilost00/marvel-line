@@ -1,0 +1,68 @@
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes swing {
+  from {
+    transform: rotatez(-20deg);
+  }
+  50% {
+    transform: rotateZ(20deg);
+  }
+  to {
+    transform: rotateZ(-20deg);
+  }
+}
+
+@keyframes swingb {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(-5px, -5px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  75% {
+    transform: translate(5px, -5px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.icon_search {
+  height: 35px;
+  transition: transform 0.3s ease-in-out;
+}
+.icon_music {
+  height: 35px;
+}
+.icon_cog {
+  height: 35px;
+}
+.icon_chatplus {
+  height: 35px;
+  width: 30px;
+}
+
+.icon_search:hover {
+  transform: rotateZ(45deg);
+}
+
+.icon_music:hover {
+  animation: swingb 1.5s linear infinite;
+}
+.icon_cog:hover {
+  animation: rotate 1s linear infinite;
+}
+
+.icon_chatplus:hover {
+  animation: swing 1s ease-in-out infinite;
+}

@@ -5,6 +5,7 @@
 /* COMPONENTS */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "screens/header-icons.css";
 
 /* INDEX */
 @import "screens/index-bg.css";
@@ -13,6 +14,10 @@
 /* FRIENDS */
 @import "screens/friends-bg.css";
 @import "screens/friends-screen.css";
+/* CHATS */
+@import "screens/chats-screen.css";
+/* SETTINGS */
+@import "screens/settings-screen.css";
 
 body {
   height: 100vh;

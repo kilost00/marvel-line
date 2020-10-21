@@ -1,0 +1,64 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bg {
+  padding: 0px 20px;
+  width: 80%;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 20px;
+}
+
+.nav-icon {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.534);
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.nav-icon_b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav-icon-find {
+  height: 40px;
+}
+
+.nav-icon-more {
+  height: 40px;
+}
+
+.nav-friends,
+.nav-chats,
+.nav-find,
+.nav-settings {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-icon_b:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.nav-friends:hover,
+.nav-chats:hover,
+.nav-find:hover,
+.nav-settings:hover {
+  transform: scale(1.3, 1.3);
+}
