@@ -1,5 +1,21 @@
+@keyframes get-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  80% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 /* WHOLE */
 .status-bar {
+  animation: get-down 14s ease-in-out forwards;
   position: fixed;
   z-index: 2;
   width: 100%;
@@ -10,6 +26,7 @@
   padding: 7px;
   box-sizing: border-box;
   font-size: 14px;
+  color: white;
 }
 /* 1st Column */
 .status-bar_service {
@@ -17,6 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  opacity: 0.8;
 }
 
 /* 2nd Column */
@@ -26,6 +44,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  opacity: 0.8;
 }
 
 /* 3rd Column */
@@ -34,21 +53,26 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  opacity: 0.8;
 }
 
 /* IMAGES AND ICONS */
 .icon_5g {
   height: 15px;
   margin-left: 3px;
+  opacity: 0.8;
 }
 .icon_rotation {
   height: 15px;
   margin-right: 3px;
+  opacity: 0.8;
 }
 .icon_battery {
   height: 30px;
   margin-left: 3px;
+  opacity: 0.8;
 }
 .icon_flash {
   height: 14px;
+  opacity: 0.8;
 }

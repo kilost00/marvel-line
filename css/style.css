@@ -4,11 +4,15 @@
 
 /* COMPONENTS */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* INDEX */
 @import "screens/index-bg.css";
 @import "screens/index-header.css";
 @import "screens/index-login.css";
+/* FRIENDS */
+@import "screens/friends-bg.css";
+@import "screens/friends-screen.css";
 
 body {
   height: 100vh;
