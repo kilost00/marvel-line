@@ -5,4 +5,233 @@
   background-color: skyblue;
 }
 
-.chat-header-icon
+.chat-header-icon {
+  height: 25px;
+  position: relative;
+  top: 3px;
+}
+#hamberger {
+  margin-left: 10px;
+}
+
+.chat-header {
+  padding: 40px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-header-chev {
+  width: 20%;
+}
+.chat-header-title {
+  width: 60%;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.chat-header-addon {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+/* TIMELINE */
+.chat-timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0px 20px;
+}
+.chat-timeline-time {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 6px 15px;
+}
+
+/* MESSAGE */
+.chat-row-in,
+.chat-row-out {
+  display: flex;
+  padding: 0px 20px;
+  align-items: flex-start;
+}
+
+.chat-row-profile {
+  height: 54px;
+  width: 54px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.chat-row-col-st {
+  width: 62px;
+  padding-top: 3px;
+}
+.chat-row-col-nd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.chat-row-content {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.chat-row-name {
+  font-size: 18px;
+  opacity: 0.8;
+}
+.chat-row-message {
+  width: 80%;
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  font-size: 20px;
+  padding: 8px 12px;
+  margin: 5px 5px 0px 0px;
+}
+.chat-row-time {
+  opacity: 0.6;
+  font-size: 14px;
+}
+.chat-row-out {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 20px;
+}
+.chat-row-content-out {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.chat-row-message-out {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  background-color: #fae100;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  font-size: 20px;
+  padding: 8px 12px;
+  margin: 5px 0px 0px 5px;
+}
+.last-chat {
+  margin-bottom: 20px;
+}
+#chat-pic {
+  height: 120px;
+  border-radius: 10px;
+}
+/* KEYBOARD */
+.chat-input {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 1px 35px 1px 0px;
+  box-sizing: border-box;
+}
+.chat-input-input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.chat-input-col-nd {
+  width: 100%;
+}
+.chat-input-input {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.chat-input-plus {
+  height: 37px;
+  position: relative;
+  top: 2px;
+}
+.chat-input-smile {
+  height: 25px;
+  opacity: 0.5;
+  position: absolute;
+  right: 55px;
+  bottom: 248px;
+}
+.chat-input-arrow {
+  height: 25px;
+}
+.chat-input-span {
+  position: absolute;
+  right: 16px;
+  bottom: 247px;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background-color: #fae100;
+}
+
+.keyboard-main {
+  width: 100%;
+  position: absolute;
+  bottom: -240px;
+  background-color: lightgray;
+  transition: transform 0.2s ease-in-out;
+}
+.keyboard-main:focus-within {
+  transform: translateY(-240px);
+}
+.keyboard-row-st {
+  display: flex;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.keyboard-row-rd {
+  display: flex;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.keyboard-row-th {
+  display: flex;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.keyboard-row-nd {
+  display: flex;
+  padding: 5px 35px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.btn {
+  font-size: 20px;
+  width: 40px;
+  height: 50px;
+  box-shadow: 0px 1px 1px black;
+}
+
+.btnb {
+  width: 60px;
+  height: 50px;
+  background-color: gray;
+  box-shadow: 0px 1px 1px black;
+}
+.btnd {
+  width: 100px;
+  height: 50px;
+  background-color: gray;
+  box-shadow: 0px 1px 1px black;
+}
+
+.btnc {
+  width: 230px;
+  height: 50px;
+  box-shadow: 0px 1px 1px black;
+}

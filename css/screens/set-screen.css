@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* 2nd Column */
@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* 3rd Column */
@@ -38,28 +38,28 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* IMAGES AND ICONS */
 .icon_5g {
   height: 15px;
   margin-left: 3px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .icon_rotation {
   height: 15px;
   margin-right: 3px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .icon_battery {
   height: 30px;
   margin-left: 3px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .icon_flash {
   height: 14px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .header-b {

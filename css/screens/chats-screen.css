@@ -49,5 +49,29 @@
   background-color: tomato;
   color: white;
   font-weight: 600;
-  animation: noti-a 1.5s ease-in-out infinite;
+  animation: noti-a 1.9s ease-in-out infinite;
+}
+.profile_col_noti {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#chat-noti-b {
+  z-index: 3;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 21px;
+  width: 21px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+}
+.profile_col_noti_time {
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
 }
