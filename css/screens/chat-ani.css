@@ -1,0 +1,174 @@
+@keyframes key-up {
+  from {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-240px);
+  }
+  90% {
+    transform: translateY(-240px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes key-type {
+  from {
+    background-color: lightgray;
+  }
+  to {
+    background-color: white;
+  }
+}
+@keyframes key-input {
+  from {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes key-sent {
+  from {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes msg {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes blnk {
+  from {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+/* TIMING */
+.the-msg {
+  opacity: 0;
+  animation: msg 0.8s ease-in-out 5s forwards;
+}
+
+.keyboard-main {
+  animation: key-up 5.5s ease-in-out;
+}
+
+.the-t {
+  animation: key-type 0.3s ease-in-out 1.2s;
+}
+.the-h {
+  animation: key-type 0.3s ease-in-out 1.4s;
+}
+.the-a {
+  animation: key-type 0.3s ease-in-out 1.6s;
+}
+.the-n {
+  animation: key-type 0.3s ease-in-out 1.8s;
+}
+.the-k {
+  animation: key-type 0.3s ease-in-out 2s;
+}
+.the-s {
+  animation: key-type 0.3s ease-in-out 2.2s;
+}
+.the-spc {
+  animation: key-type 0.3s ease-in-out 2.4s;
+}
+.the-shft {
+  animation: key-type 0.3s ease-in-out 3s;
+}
+.the-m {
+  animation: key-type 0.3s ease-in-out 3.2s;
+}
+.the-j {
+  animation: key-type 0.3s ease-in-out 3.4s;
+}
+.the-rtrn {
+  animation: key-type 0.6s ease-in-out 4.7s;
+}
+
+.th-typing {
+  color: black;
+  position: absolute;
+  font-size: 19px;
+  left: 50px;
+  top: 10px;
+  animation: key-sent 5s ease-in-out forwards;
+}
+
+.th-blnk {
+  position: relative;
+  left: 0px;
+  font-size: 15px;
+  border-left: 1px solid transparent;
+  animation: blnk 0.4s ease-in-out infinite, disappear 1.2s ease-in-out forwards;
+}
+.th-t {
+  position: absolute;
+  left: 0px;
+  border-right: 1px solid transparent;
+  animation: key-input 1.6s ease-in-out, blnk 0.3s ease-in-out 1.4s;
+}
+.th-h {
+  position: absolute;
+  left: 7px;
+  border-right: 1px solid transparent;
+  animation: key-input 2s ease-in-out, blnk 0.3s ease-in-out 1.6s;
+}
+.th-a {
+  position: absolute;
+  left: 18px;
+  border-right: 1px solid transparent;
+  animation: key-input 2.3s ease-in-out, blnk 0.3s ease-in-out 1.8s;
+}
+.th-n {
+  position: absolute;
+  left: 28px;
+  border-right: 1px solid transparent;
+  animation: key-input 2.6s ease-in-out, blnk 0.3s ease-in-out 2s;
+}
+.th-k {
+  position: absolute;
+  left: 39px;
+  border-right: 1px solid transparent;
+  animation: key-input 2.75s ease-in-out, blnk 0.3s ease-in-out 2.2s;
+}
+.th-s {
+  position: absolute;
+  left: 49px;
+  border-right: 1px solid transparent;
+  animation: key-input 3s ease-in-out, blnk 0.3s ease-in-out 2.5s;
+}
+.th-m {
+  position: absolute;
+  left: 65px;
+  border-right: 1px solid transparent;
+  animation: key-input 4s ease-in-out, blnk 0.3s ease-in-out 3.45s;
+}
+.th-j {
+  position: absolute;
+  left: 83px;
+  border-right: 1px solid transparent;
+  animation: key-input 4.2s ease-in-out, blnk 0.5s ease-in-out 3.6s infinite;
+}
