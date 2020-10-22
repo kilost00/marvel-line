@@ -6,6 +6,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "screens/header-icons.css";
+@import "screens/keyboard.css";
 
 /* INDEX */
 @import "screens/index-bg.css";
