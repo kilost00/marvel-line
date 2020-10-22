@@ -1,6 +1,9 @@
 .nav {
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .nav-bg {
