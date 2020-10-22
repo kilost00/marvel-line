@@ -70,7 +70,7 @@
   animation: msg 0.8s ease-in-out 5s forwards;
 }
 
-.keyboard-main {
+.keyboard-main-b {
   animation: key-up 5.5s ease-in-out;
 }
 

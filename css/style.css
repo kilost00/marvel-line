@@ -50,8 +50,11 @@ body {
   padding: 0px 0px 0px 50px;
   box-sizing: border-box;
 }
+#mobile span {
+  margin-bottom: 20px;
+}
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 550px) {
   #mobile {
     display: none;
   }
