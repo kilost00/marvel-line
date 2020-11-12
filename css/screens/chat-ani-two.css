@@ -1,0 +1,133 @@
+@keyframes key-up {
+  from {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-240px);
+  }
+  90% {
+    transform: translateY(-240px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes key-type {
+  from {
+    background-color: lightgray;
+  }
+  to {
+    background-color: white;
+  }
+}
+@keyframes key-input {
+  from {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes key-sent {
+  from {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes msg {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes blnk {
+  from {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+/* TIMING */
+.the-msg-two {
+  opacity: 0;
+  animation: msg 0.8s ease-in-out 3.2s forwards;
+}
+
+.keyboard-main-two{
+  animation: key-up 3.6s ease-in-out;
+}
+
+.the-o-two {
+  animation: key-type 0.3s ease-in-out 1.2s;
+}
+.the-k-two {
+  animation: key-type 0.3s ease-in-out 1.4s;
+}
+.the-a-two {
+  animation: key-type 0.3s ease-in-out 1.6s;
+}
+.the-y-two {
+  animation: key-type 0.3s ease-in-out 1.8s;
+}
+.the-rtrn-two {
+  animation: key-type 0.6s ease-in-out 3.1s;
+}
+
+.th-typing-two {
+  color: black;
+  position: absolute;
+  font-size: 19px;
+  left: 50px;
+  top: 10px;
+  animation: key-sent 3.2s ease-in-out forwards;
+}
+
+.th-blnk-two {
+  position: relative;
+  left: 0px;
+  font-size: 15px;
+  border-left: 1px solid transparent;
+  animation: blnk 0.4s ease-in-out infinite, disappear 1.2s ease-in-out forwards;
+}
+.th-o-two {
+  position: absolute;
+  left: 0px;
+  border-right: 1px solid transparent;
+  animation: key-input 1.6s ease-in-out, blnk 0.3s ease-in-out 1.4s;
+}
+.th-k-two {
+  position: absolute;
+  left: 11px;
+  border-right: 1px solid transparent;
+  animation: key-input 2s ease-in-out, blnk 0.3s ease-in-out 1.6s;
+}
+.th-a-two {
+  position: absolute;
+  left: 21px;
+  border-right: 1px solid transparent;
+  animation: key-input 2.3s ease-in-out, blnk 0.3s ease-in-out 1.8s;
+}
+.th-y-two {
+  position: absolute;
+  left: 31px;
+  border-right: 1px solid transparent;
+  animation: key-input 2.6s ease-in-out, blnk 0.3s ease-in-out 2s;
+}
+
