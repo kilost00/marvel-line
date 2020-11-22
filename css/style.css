@@ -33,6 +33,13 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.power-on {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 #mobile {
   position: absolute;
   z-index: 10;
@@ -51,6 +58,7 @@ body {
   padding: 0px 0px 0px 50px;
   box-sizing: border-box;
 }
+
 #mobile span {
   margin-bottom: 20px;
 }
@@ -60,3 +68,4 @@ body {
     display: none;
   }
 }
+
